@@ -1,4 +1,10 @@
-﻿interface ISite
+﻿ISite mySite = new SiteProxy(new Site());
+Console.WriteLine(mySite.GetPage(1));
+Console.WriteLine(mySite.GetPage(2));
+Console.WriteLine(mySite.GetPage(3));
+
+Console.WriteLine(mySite.GetPage(2));
+interface ISite
 {
     string GetPage(int num);
 }
@@ -10,9 +16,9 @@ class SiteProxy : ISite
 {
     private ISite site;
     private Dictionary<int, string> cache;
-    public SiteProxy(ISite size)
+    public SiteProxy(ISite site)
     {
-        this.site = size;
+        this.site = site;
         cache = new Dictionary<int, string>();
     }
     public string GetPage(int num)
