@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternsPOB2421", "PatternsPOB2421\PatternsPOB2421.csproj", "{646EC58C-C628-4CFF-AF0F-4468ABA21C52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternsPOB2421", "PatternsPOB2421\PatternsPOB2421.csproj", "{646EC58C-C628-4CFF-AF0F-4468ABA21C52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{F68179AF-98A1-4A9D-9085-4617C7DE4A36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{F68179AF-98A1-4A9D-9085-4617C7DE4A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{366DD902-B11F-4AA5-B4BE-36CBF1EF4146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{366DD902-B11F-4AA5-B4BE-36CBF1EF4146}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{F1B0D8DF-3123-48CF-9F53-9C30580530EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{F1B0D8DF-3123-48CF-9F53-9C30580530EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singlton", "Singlton\Singlton.csproj", "{2D156243-8608-4375-92EF-CD71537E96F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singlton", "Singlton\Singlton.csproj", "{2D156243-8608-4375-92EF-CD71537E96F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorProject", "DecoratorProject\DecoratorProject.csproj", "{34B4C26A-9E47-4FC1-8904-5150B97C92C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{3EF51AA9-B883-479F-BD6B-B4F3877F4B99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{56089065-FCDB-4D25-910C-15108F840FD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{2D156243-8608-4375-92EF-CD71537E96F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D156243-8608-4375-92EF-CD71537E96F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D156243-8608-4375-92EF-CD71537E96F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B4C26A-9E47-4FC1-8904-5150B97C92C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B4C26A-9E47-4FC1-8904-5150B97C92C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B4C26A-9E47-4FC1-8904-5150B97C92C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B4C26A-9E47-4FC1-8904-5150B97C92C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF51AA9-B883-479F-BD6B-B4F3877F4B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF51AA9-B883-479F-BD6B-B4F3877F4B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF51AA9-B883-479F-BD6B-B4F3877F4B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF51AA9-B883-479F-BD6B-B4F3877F4B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56089065-FCDB-4D25-910C-15108F840FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56089065-FCDB-4D25-910C-15108F840FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56089065-FCDB-4D25-910C-15108F840FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56089065-FCDB-4D25-910C-15108F840FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
